@@ -19,10 +19,14 @@ erl_crash.dump
 # Also ignore archive artifacts (built via "mix archive.build").
 *.ez
 
+#ignores all png files that have been added
+*.png
+
 # Ignore package tarball (built via "mix hex.build").
 identicon-*.tar
 
 # Mac Specific Files
 *.DS_Store
 *elixir_ls/*
+
 
